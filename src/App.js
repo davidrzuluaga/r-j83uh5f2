@@ -22,7 +22,7 @@ class App extends Component {
     
       this.setState({
       valueForm: event.target.value,
-      numberForm: this.state.valueForm.length
+      numberForm: event.target.value.length
     })
   }
   
